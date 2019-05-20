@@ -1,0 +1,527 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERC20Basic.sol - EthNet Coverage</title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin: 15px;
+        }
+
+        hr {
+            margin: 15px 0px;
+            background-color: transparent;
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+
+        a {
+            color: #2A5DB0;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            a:active {
+                color: black;
+            }
+
+            a:visited {
+                color: #2A5DB0;
+            }
+
+        footer {
+            line-height: 1.5;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    
+
+
+<style>
+
+    .coverage-table {
+        border-collapse: collapse;
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 12px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        tab-size: 4;
+    }
+
+    .row-line-number {
+        width: 10px;
+        text-align: right;
+    }
+
+        .row-line-number > span {
+            padding-right: 3px;
+            color: rgba(0, 0, 0, 0.50);
+        }
+
+    .row-execution-count {
+        width: 10px;
+        text-align: right;
+        background-color: rgba(0, 0, 0, 0.04);
+    }
+
+        .row-execution-count > span {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    .row-branches {
+        min-width: 25px;
+    }
+
+        .row-branches > span {
+            border-radius: 4px;
+            padding: 0px 3px;
+            text-align: center;
+            width: 12px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    .branch-state-covered {
+        color: rgb(5, 224, 0);
+    }
+
+    .branch-state-partial {
+        background-color: rgba(0, 0, 0, 0.65);
+        color: #ffed00;
+    }
+
+    .branch-state-uncovered {
+        background-color: rgba(0, 0, 0, 0.80);
+        color: rgb(255, 109, 109);
+        font-weight: bold;
+    }
+
+    .row-source {
+        width: 100%;
+    }
+
+        .row-source span {
+            white-space: pre;
+        }
+
+    .good-execution-count {
+        padding: 0px 3px;
+        background-color: rgba(23, 255, 0, 0.12);
+    }
+
+    .line-uncovered {
+        background-color: rgba(255, 0, 0, 0.10);
+    }
+
+    .line-covered {
+    }
+
+    .line-unreachable {
+        background-color: rgba(254, 255, 0, 0.30)
+    }
+
+    .line-active {
+        background-color: rgba(0, 102, 255, 0.15);
+    }
+</style>
+
+
+<p>
+    <a href="../index.html">index</a> / ERC20Basic.sol
+</p>
+<hr />
+
+<div>
+    
+
+<style>
+    .cov-total-percent {
+    }
+
+    .cov-total-desc {
+    }
+
+    .cov-total-counts {
+        margin-right: 30px;
+    }
+</style>
+
+<div>
+
+    <span class="cov-total-percent">50%</span>
+    <span class="cov-total-desc">Lines</span>
+    <span class="cov-total-counts">13/26</span>
+
+    <span class="cov-total-percent">30%</span>
+    <span class="cov-total-desc">Branches</span>
+    <span class="cov-total-counts">3/10</span>
+
+    <span class="cov-total-percent">55,56%</span>
+    <span class="cov-total-desc">Functions</span>
+    <span class="cov-total-counts">5/9</span>
+
+</div>
+</div>
+
+<hr />
+
+<table class="coverage-table">
+    <tbody>
+        <tr>
+            <td rowspan="0" class="row-line-number">
+                    <span>1</span><br />
+                    <span>2</span><br />
+                    <span>3</span><br />
+                    <span>4</span><br />
+                    <span>5</span><br />
+                    <span>6</span><br />
+                    <span>7</span><br />
+                    <span>8</span><br />
+                    <span>9</span><br />
+                    <span>10</span><br />
+                    <span>11</span><br />
+                    <span>12</span><br />
+                    <span>13</span><br />
+                    <span>14</span><br />
+                    <span>15</span><br />
+                    <span>16</span><br />
+                    <span>17</span><br />
+                    <span>18</span><br />
+                    <span>19</span><br />
+                    <span>20</span><br />
+                    <span>21</span><br />
+                    <span>22</span><br />
+                    <span>23</span><br />
+                    <span>24</span><br />
+                    <span>25</span><br />
+                    <span>26</span><br />
+                    <span>27</span><br />
+                    <span>28</span><br />
+                    <span>29</span><br />
+                    <span>30</span><br />
+                    <span>31</span><br />
+                    <span>32</span><br />
+                    <span>33</span><br />
+                    <span>34</span><br />
+                    <span>35</span><br />
+                    <span>36</span><br />
+                    <span>37</span><br />
+                    <span>38</span><br />
+                    <span>39</span><br />
+                    <span>40</span><br />
+                    <span>41</span><br />
+                    <span>42</span><br />
+                    <span>43</span><br />
+                    <span>44</span><br />
+                    <span>45</span><br />
+                    <span>46</span><br />
+                    <span>47</span><br />
+                    <span>48</span><br />
+                    <span>49</span><br />
+                    <span>50</span><br />
+                    <span>51</span><br />
+                    <span>52</span><br />
+                    <span>53</span><br />
+                    <span>54</span><br />
+                    <span>55</span><br />
+                    <span>56</span><br />
+                    <span>57</span><br />
+                    <span>58</span><br />
+                    <span>59</span><br />
+                    <span>60</span><br />
+                    <span>61</span><br />
+                    <span>62</span><br />
+                    <span>63</span><br />
+                    <span>64</span><br />
+                    <span>65</span><br />
+                    <span>66</span><br />
+                    <span>67</span><br />
+                    <span>68</span><br />
+                    <span>69</span><br />
+                    <span>70</span><br />
+                    <span>71</span><br />
+                    <span>72</span><br />
+                    <span>73</span><br />
+                    <span>74</span><br />
+                    <span>75</span><br />
+                    <span>76</span><br />
+                    <span>77</span><br />
+            </td>
+            <td rowspan="0" class="row-execution-count">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span class="good-execution-count">1&#xD7;</span>
+                        <span class="good-execution-count">1&#xD7;</span>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span class="good-execution-count">3&#xD7;</span>
+                        <br />
+                        <br />
+                        <br />
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <br />
+                        <br />
+                        <br />
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <span class="good-execution-count">2&#xD7;</span>
+                        <br />
+                        <br />
+            </td>
+            <td rowspan="0" class="row-branches">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span class="branch-state-partial">E</span>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span class="branch-state-uncovered">&#x2349;</span>
+                        <span class="branch-state-uncovered">&#x2349;</span>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span class="branch-state-partial">E</span>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span class="branch-state-partial">E</span>
+                        <br />
+                        <br />
+                        <br />
+            </td>
+            <td rowspan="0" class="row-source">
+                    <span class="">pragma solidity ^0.4.19;</span><br />
+                    <span class=""></span><br />
+                    <span class="">contract ERC20Basic {</span><br />
+                    <span class=""></span><br />
+                    <span class="">    string public constant name = &quot;ERC20Basic&quot;;</span><br />
+                    <span class="">    string public constant symbol = &quot;BSC&quot;;</span><br />
+                    <span class="line-uncovered">    uint8 public constant decimals = 18;  </span><br />
+                    <span class=""></span><br />
+                    <span class=""></span><br />
+                    <span class="">    event Approval(address indexed tokenOwner, address indexed spender, uint tokens);</span><br />
+                    <span class="">    event Transfer(address indexed from, address indexed to, uint tokens);</span><br />
+                    <span class=""></span><br />
+                    <span class=""></span><br />
+                    <span class="">    mapping(address =&gt; uint256) balances;</span><br />
+                    <span class=""></span><br />
+                    <span class="">    mapping(address =&gt; mapping (address =&gt; uint256)) allowed;</span><br />
+                    <span class="">    </span><br />
+                    <span class="">    uint256 totalSupply_;</span><br />
+                    <span class=""></span><br />
+                    <span class="">    using SafeMath for uint256;</span><br />
+                    <span class=""></span><br />
+                    <span class=""></span><br />
+                    <span class="">   constructor(uint256 total) public {  </span><br />
+                    <span class="line-covered">&#x9;totalSupply_ = total;</span><br />
+                    <span class="line-covered">&#x9;balances[msg.sender] = totalSupply_;</span><br />
+                    <span class="">    }  </span><br />
+                    <span class=""></span><br />
+                    <span class="">    function totalSupply() public view returns (uint256) {</span><br />
+                    <span class="line-uncovered">&#x9;return totalSupply_;</span><br />
+                    <span class="">    }</span><br />
+                    <span class="">    </span><br />
+                    <span class="">    function balanceOf(address tokenOwner) public view returns (uint) {</span><br />
+                    <span class="line-covered">        return balances[tokenOwner];</span><br />
+                    <span class="">    }</span><br />
+                    <span class=""></span><br />
+                    <span class="">    function transfer(address receiver, uint numTokens) public returns (bool) {</span><br />
+                    <span class="line-covered">        require(numTokens &lt;= balances[msg.sender]);</span><br />
+                    <span class="line-covered">        balances[msg.sender] = balances[msg.sender].sub(numTokens);</span><br />
+                    <span class="line-covered">        balances[receiver] = balances[receiver].add(numTokens);</span><br />
+                    <span class="line-covered">        emit Transfer(msg.sender, receiver, numTokens);</span><br />
+                    <span class="line-covered">        return true;</span><br />
+                    <span class="">    }</span><br />
+                    <span class=""></span><br />
+                    <span class="">    function approve(address delegate, uint numTokens) public returns (bool) {</span><br />
+                    <span class="line-uncovered">        allowed[msg.sender][delegate] = numTokens;</span><br />
+                    <span class="line-uncovered">        Approval(msg.sender, delegate, numTokens);</span><br />
+                    <span class="line-uncovered">        return true;</span><br />
+                    <span class="">    }</span><br />
+                    <span class=""></span><br />
+                    <span class="">    function allowance(address owner, address delegate) public view returns (uint) {</span><br />
+                    <span class="line-uncovered">        return allowed[owner][delegate];</span><br />
+                    <span class="">    }</span><br />
+                    <span class=""></span><br />
+                    <span class="">    function transferFrom(address owner, address buyer, uint numTokens) public returns (bool) {</span><br />
+                    <span class="line-uncovered">        require(numTokens &lt;= balances[owner]);    </span><br />
+                    <span class="line-uncovered">        require(numTokens &lt;= allowed[owner][msg.sender]);</span><br />
+                    <span class="">    </span><br />
+                    <span class="line-uncovered">        balances[owner] = balances[owner].sub(numTokens);</span><br />
+                    <span class="line-uncovered">        allowed[owner][msg.sender] = allowed[owner][msg.sender].sub(numTokens);</span><br />
+                    <span class="line-uncovered">        balances[buyer] = balances[buyer].add(numTokens);</span><br />
+                    <span class="line-uncovered">        Transfer(owner, buyer, numTokens);</span><br />
+                    <span class="line-uncovered">        return true;</span><br />
+                    <span class="">    }</span><br />
+                    <span class="">}</span><br />
+                    <span class=""></span><br />
+                    <span class="">library SafeMath { </span><br />
+                    <span class="">    function sub(uint256 a, uint256 b) internal pure returns (uint256) {</span><br />
+                    <span class="line-covered">      assert(b &lt;= a);</span><br />
+                    <span class="line-covered">      return a - b;</span><br />
+                    <span class="">    }</span><br />
+                    <span class="">    </span><br />
+                    <span class="">    function add(uint256 a, uint256 b) internal pure returns (uint256) {</span><br />
+                    <span class="line-covered">      uint256 c = a &#x2B; b;</span><br />
+                    <span class="line-covered">      assert(c &gt;= a);</span><br />
+                    <span class="line-covered">      return c;</span><br />
+                    <span class="">    }</span><br />
+                    <span class="">}</span><br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+    <hr />
+    <footer>
+        <center>
+            Solidity code coverage report generated by Meadow v0.3.225
+            <br />
+            Used Solidity Compiler v0.4.25
+            <br />
+            2019-05-20T16:02:50 (UTC)
+            <br />
+            <a href="https://github.com/MeadowSuite">github.com/MeadowSuite</a>
+        </center>
+    </footer>
+
+
+    
+</body>
+</html>
