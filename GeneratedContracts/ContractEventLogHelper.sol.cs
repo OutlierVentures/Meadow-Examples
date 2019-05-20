@@ -1,6 +1,6 @@
-//d905abb6789c4852ae57f9c024ce5185053c5e154314e8cea3e8e9bcb5c30516
+//1cb13aee9c41456d74cca76b90cdc9c4a37d0c03009985d657bab9652fa9cbcf
 // NOTICE: Do not change this file. This file is auto-generated and any changes will be reset.
-// Generated date: 2019-05-20T15:32:57 (UTC)
+// Generated date: 2019-05-20T16:35:42 (UTC)
 #pragma warning disable SA1000 // The keyword 'new' should be followed by a space
 
 #pragma warning disable SA1003 // Symbols should be spaced correctly
@@ -52,6 +52,8 @@ namespace TokenContract
                     return new TokenContract.ERC20Basic.Approval(log);
                 case "ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef_02":
                     return new TokenContract.ERC20Basic.Transfer(log);
+                case "28843b844d4060d225bc7fb6279bd091f7ddb51b0f3d7e97947f52d3b609a2be_00":
+                    return new TokenContract.HelloWorld.HelloEvent(log);
                 default:
                     return null;
             }

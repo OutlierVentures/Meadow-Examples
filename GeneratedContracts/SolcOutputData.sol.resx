@@ -620,7 +620,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 313,
+                            "referencedDeclaration": 350,
                             "src": "593:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1009,7 +1009,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 313,
+                                "referencedDeclaration": 350,
                                 "src": "956:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -1059,10 +1059,10 @@
                         "name": "require",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          316,
-                          317
+                          353,
+                          354
                         ],
-                        "referencedDeclaration": 316,
+                        "referencedDeclaration": 353,
                         "src": "926:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1119,7 +1119,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 313,
+                            "referencedDeclaration": 350,
                             "src": "987:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1201,7 +1201,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 313,
+                                "referencedDeclaration": 350,
                                 "src": "1010:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -1435,7 +1435,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 313,
+                            "referencedDeclaration": 350,
                             "src": "1124:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1700,7 +1700,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 313,
+                              "referencedDeclaration": 350,
                               "src": "1281:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -1794,7 +1794,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 313,
+                            "referencedDeclaration": 350,
                             "src": "1333:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2301,10 +2301,10 @@
                         "name": "require",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          316,
-                          317
+                          353,
+                          354
                         ],
-                        "referencedDeclaration": 316,
+                        "referencedDeclaration": 353,
                         "src": "1632:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2410,7 +2410,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 313,
+                                "referencedDeclaration": 350,
                                 "src": "1719:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -2460,10 +2460,10 @@
                         "name": "require",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          316,
-                          317
+                          353,
+                          354
                         ],
-                        "referencedDeclaration": 316,
+                        "referencedDeclaration": 353,
                         "src": "1683:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2699,7 +2699,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 313,
+                            "referencedDeclaration": 350,
                             "src": "1819:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2808,7 +2808,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 313,
+                                "referencedDeclaration": 350,
                                 "src": "1848:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -3361,7 +3361,7 @@
                         "name": "assert",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 302,
+                        "referencedDeclaration": 339,
                         "src": "2106:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -3694,7 +3694,7 @@
                         "name": "assert",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 302,
+                        "referencedDeclaration": 339,
                         "src": "2257:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -3855,6 +3855,465 @@
       "src": "0:2296:0"
     },
     "sourceCode": "pragma solidity ^0.4.19;\n\ncontract ERC20Basic {\n\n    string public constant name = \"ERC20Basic\";\n    string public constant symbol = \"BSC\";\n    uint8 public constant decimals = 18;  \n\n\n    event Approval(address indexed tokenOwner, address indexed spender, uint tokens);\n    event Transfer(address indexed from, address indexed to, uint tokens);\n\n\n    mapping(address =&gt; uint256) balances;\n\n    mapping(address =&gt; mapping (address =&gt; uint256)) allowed;\n    \n    uint256 totalSupply_;\n\n    using SafeMath for uint256;\n\n\n   constructor(uint256 total) public {  \n\ttotalSupply_ = total;\n\tbalances[msg.sender] = totalSupply_;\n    }  \n\n    function totalSupply() public view returns (uint256) {\n\treturn totalSupply_;\n    }\n    \n    function balanceOf(address tokenOwner) public view returns (uint) {\n        return balances[tokenOwner];\n    }\n\n    function transfer(address receiver, uint numTokens) public returns (bool) {\n        require(numTokens &lt;= balances[msg.sender]);\n        balances[msg.sender] = balances[msg.sender].sub(numTokens);\n        balances[receiver] = balances[receiver].add(numTokens);\n        emit Transfer(msg.sender, receiver, numTokens);\n        return true;\n    }\n\n    function approve(address delegate, uint numTokens) public returns (bool) {\n        allowed[msg.sender][delegate] = numTokens;\n        Approval(msg.sender, delegate, numTokens);\n        return true;\n    }\n\n    function allowance(address owner, address delegate) public view returns (uint) {\n        return allowed[owner][delegate];\n    }\n\n    function transferFrom(address owner, address buyer, uint numTokens) public returns (bool) {\n        require(numTokens &lt;= balances[owner]);    \n        require(numTokens &lt;= allowed[owner][msg.sender]);\n    \n        balances[owner] = balances[owner].sub(numTokens);\n        allowed[owner][msg.sender] = allowed[owner][msg.sender].sub(numTokens);\n        balances[buyer] = balances[buyer].add(numTokens);\n        Transfer(owner, buyer, numTokens);\n        return true;\n    }\n}\n\nlibrary SafeMath { \n    function sub(uint256 a, uint256 b) internal pure returns (uint256) {\n      assert(b &lt;= a);\n      return a - b;\n    }\n    \n    function add(uint256 a, uint256 b) internal pure returns (uint256) {\n      uint256 c = a + b;\n      assert(c &gt;= a);\n      return c;\n    }\n}"
+  },
+  {
+    "id": 1,
+    "fileName": "HelloWorld.sol",
+    "ast": {
+      "absolutePath": "HelloWorld.sol",
+      "exportedSymbols": {
+        "HelloWorld": [
+          335
+        ]
+      },
+      "id": 336,
+      "nodeType": "SourceUnit",
+      "nodes": [
+        {
+          "id": 300,
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".24"
+          ],
+          "nodeType": "PragmaDirective",
+          "src": "0:24:1"
+        },
+        {
+          "baseContracts": [],
+          "contractDependencies": [],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "id": 335,
+          "linearizedBaseContracts": [
+            335
+          ],
+          "name": "HelloWorld",
+          "nodeType": "ContractDefinition",
+          "nodes": [
+            {
+              "anonymous": false,
+              "documentation": null,
+              "id": 306,
+              "name": "HelloEvent",
+              "nodeType": "EventDefinition",
+              "parameters": {
+                "id": 305,
+                "nodeType": "ParameterList",
+                "parameters": [
+                  {
+                    "constant": false,
+                    "id": 302,
+                    "indexed": false,
+                    "name": "_message",
+                    "nodeType": "VariableDeclaration",
+                    "scope": 306,
+                    "src": "70:15:1",
+                    "stateVariable": false,
+                    "storageLocation": "default",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string"
+                    },
+                    "typeName": {
+                      "id": 301,
+                      "name": "string",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "70:6:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage_ptr",
+                        "typeString": "string"
+                      }
+                    },
+                    "value": null,
+                    "visibility": "internal"
+                  },
+                  {
+                    "constant": false,
+                    "id": 304,
+                    "indexed": false,
+                    "name": "_sender",
+                    "nodeType": "VariableDeclaration",
+                    "scope": 306,
+                    "src": "87:15:1",
+                    "stateVariable": false,
+                    "storageLocation": "default",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    },
+                    "typeName": {
+                      "id": 303,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "87:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "value": null,
+                    "visibility": "internal"
+                  }
+                ],
+                "src": "69:34:1"
+              },
+              "src": "53:51:1"
+            },
+            {
+              "body": {
+                "id": 319,
+                "nodeType": "Block",
+                "src": "429:89:1",
+                "statements": [
+                  {
+                    "eventCall": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "48656c6c6f20776f726c64",
+                          "id": 312,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "455:13:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_ed6c11b0b5b808960df26f5bfc471d04c1995b0ffd2055925ad1be28d6baadfd",
+                            "typeString": "literal_string \"Hello world\""
+                          },
+                          "value": "Hello world"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 313,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 350,
+                            "src": "470:3:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 314,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "470:10:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_ed6c11b0b5b808960df26f5bfc471d04c1995b0ffd2055925ad1be28d6baadfd",
+                            "typeString": "literal_string \"Hello world\""
+                          },
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "id": 311,
+                        "name": "HelloEvent",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 306,
+                        "src": "444:10:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_address_$returns$__$",
+                          "typeString": "function (string memory,address)"
+                        }
+                      },
+                      "id": 315,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "444:37:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_tuple$__$",
+                        "typeString": "tuple()"
+                      }
+                    },
+                    "id": 316,
+                    "nodeType": "EmitStatement",
+                    "src": "439:42:1"
+                  },
+                  {
+                    "expression": {
+                      "argumentTypes": null,
+                      "hexValue": "48656c6c6f20776f726c64",
+                      "id": 317,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "498:13:1",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_ed6c11b0b5b808960df26f5bfc471d04c1995b0ffd2055925ad1be28d6baadfd",
+                        "typeString": "literal_string \"Hello world\""
+                      },
+                      "value": "Hello world"
+                    },
+                    "functionReturnParameters": 310,
+                    "id": 318,
+                    "nodeType": "Return",
+                    "src": "491:20:1"
+                  }
+                ]
+              },
+              "documentation": null,
+              "id": 320,
+              "implemented": true,
+              "isConstructor": false,
+              "isDeclaredConst": false,
+              "modifiers": [],
+              "name": "renderHelloWorld",
+              "nodeType": "FunctionDefinition",
+              "parameters": {
+                "id": 307,
+                "nodeType": "ParameterList",
+                "parameters": [],
+                "src": "394:2:1"
+              },
+              "payable": false,
+              "returnParameters": {
+                "id": 310,
+                "nodeType": "ParameterList",
+                "parameters": [
+                  {
+                    "constant": false,
+                    "id": 309,
+                    "name": "",
+                    "nodeType": "VariableDeclaration",
+                    "scope": 320,
+                    "src": "414:6:1",
+                    "stateVariable": false,
+                    "storageLocation": "memory",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string"
+                    },
+                    "typeName": {
+                      "id": 308,
+                      "name": "string",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "414:6:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage_ptr",
+                        "typeString": "string"
+                      }
+                    },
+                    "value": null,
+                    "visibility": "internal"
+                  }
+                ],
+                "src": "413:15:1"
+              },
+              "scope": 335,
+              "src": "368:150:1",
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            {
+              "body": {
+                "id": 333,
+                "nodeType": "Block",
+                "src": "575:29:1",
+                "statements": [
+                  {
+                    "expression": {
+                      "argumentTypes": null,
+                      "commonType": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "id": 331,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "argumentTypes": null,
+                        "id": 329,
+                        "name": "a",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 322,
+                        "src": "592:1:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": "+",
+                      "rightExpression": {
+                        "argumentTypes": null,
+                        "id": 330,
+                        "name": "b",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 324,
+                        "src": "596:1:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "src": "592:5:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "functionReturnParameters": 328,
+                    "id": 332,
+                    "nodeType": "Return",
+                    "src": "585:12:1"
+                  }
+                ]
+              },
+              "documentation": null,
+              "id": 334,
+              "implemented": true,
+              "isConstructor": false,
+              "isDeclaredConst": false,
+              "modifiers": [],
+              "name": "sum",
+              "nodeType": "FunctionDefinition",
+              "parameters": {
+                "id": 325,
+                "nodeType": "ParameterList",
+                "parameters": [
+                  {
+                    "constant": false,
+                    "id": 322,
+                    "name": "a",
+                    "nodeType": "VariableDeclaration",
+                    "scope": 334,
+                    "src": "537:6:1",
+                    "stateVariable": false,
+                    "storageLocation": "default",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "typeName": {
+                      "id": 321,
+                      "name": "uint",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "537:4:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "value": null,
+                    "visibility": "internal"
+                  },
+                  {
+                    "constant": false,
+                    "id": 324,
+                    "name": "b",
+                    "nodeType": "VariableDeclaration",
+                    "scope": 334,
+                    "src": "545:6:1",
+                    "stateVariable": false,
+                    "storageLocation": "default",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "typeName": {
+                      "id": 323,
+                      "name": "uint",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "545:4:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "value": null,
+                    "visibility": "internal"
+                  }
+                ],
+                "src": "536:16:1"
+              },
+              "payable": false,
+              "returnParameters": {
+                "id": 328,
+                "nodeType": "ParameterList",
+                "parameters": [
+                  {
+                    "constant": false,
+                    "id": 327,
+                    "name": "",
+                    "nodeType": "VariableDeclaration",
+                    "scope": 334,
+                    "src": "569:4:1",
+                    "stateVariable": false,
+                    "storageLocation": "default",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "typeName": {
+                      "id": 326,
+                      "name": "uint",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "569:4:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "value": null,
+                    "visibility": "internal"
+                  }
+                ],
+                "src": "568:6:1"
+              },
+              "scope": 335,
+              "src": "524:80:1",
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            }
+          ],
+          "scope": 336,
+          "src": "26:581:1"
+        }
+      ],
+      "src": "0:608:1"
+    },
+    "sourceCode": "pragma solidity ^0.4.24;\n\ncontract HelloWorld {\n\n    event HelloEvent(string _message, address _sender);\n    // string hello;\n\n    // constructor () public {\n    //     hello = renderHelloWorld();\n    //     uint a = 1;\n    //     uint b = 2;\n    //     uint c;\n    //     c = sum(a, b);\n    //     address s = msg.sender;\n    //     renderHelloWorld();\n    // }\n\n    function renderHelloWorld () public returns  (string memory) {\n        emit HelloEvent(\"Hello world\", msg.sender);\n        return \"Hello world\";\n    }\n\n    function sum(uint a, uint b) public returns (uint) {\n        return a + b;\n    }\n\n}\n"
   }
 ]</value></data><data name="ByteCodeData" xml:space="preserve"><value>[
   {
@@ -3876,6 +4335,16 @@
     "opcodesDeployed": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 NUMBER AND 0xd1 0xd SLT DUP12 SWAP14 PUSH14 0xE6D5320B9D1123F2EB8F313E04DB 0xe5 0xf9 0xda 0x5f 0xa5 PUSH31 0x7B832F2F002900000000000000000000000000000000000000000000000000 ",
     "bytecode": "604c602c600b82828239805160001a60731460008114601c57601e565bfe5b5030600052607381538281f30073000000000000000000000000000000000000000030146080604052600080fd00a165627a7a723058204316d10d128b9d6de6d5320b9d1123f2eb8f313e04dbe5f9da5fa57e7b832f2f0029",
     "bytecodeDeployed": "73000000000000000000000000000000000000000030146080604052600080fd00a165627a7a723058204316d10d128b9d6de6d5320b9d1123f2eb8f313e04dbe5f9da5fa57e7b832f2f0029"
+  },
+  {
+    "filePath": "HelloWorld.sol",
+    "contractName": "HelloWorld",
+    "sourceMap": "26:581:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:581:1;;;;;;;",
+    "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x23E DUP1 PUSH2 0x20 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH2 0x4C JUMPI PUSH1 0x0 CALLDATALOAD PUSH29 0x100000000000000000000000000000000000000000000000000000000 SWAP1 DIV PUSH4 0xFFFFFFFF AND DUP1 PUSH4 0x942AE0A7 EQ PUSH2 0x51 JUMPI DUP1 PUSH4 0xCAD0899B EQ PUSH2 0xE1 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x5D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x66 PUSH2 0x12C JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE DUP4 DUP2 DUP2 MLOAD DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP4 DUP4 PUSH1 0x0 JUMPDEST DUP4 DUP2 LT ISZERO PUSH2 0xA6 JUMPI DUP1 DUP3 ADD MLOAD DUP2 DUP5 ADD MSTORE PUSH1 0x20 DUP2 ADD SWAP1 POP PUSH2 0x8B JUMP JUMPDEST POP POP POP POP SWAP1 POP SWAP1 DUP2 ADD SWAP1 PUSH1 0x1F AND DUP1 ISZERO PUSH2 0xD3 JUMPI DUP1 DUP3 SUB DUP1 MLOAD PUSH1 0x1 DUP4 PUSH1 0x20 SUB PUSH2 0x100 EXP SUB NOT AND DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP JUMPDEST POP SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0xED JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x116 PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x205 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP3 DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x60 PUSH32 0x28843B844D4060D225BC7FB6279BD091F7DDB51B0F3D7E97947F52D3B609A2BE CALLER PUSH1 0x40 MLOAD DUP1 DUP1 PUSH1 0x20 ADD DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0xB DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x48656C6C6F20776F726C64000000000000000000000000000000000000000000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 PUSH1 0x40 DUP1 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 PUSH1 0xB DUP2 MSTORE PUSH1 0x20 ADD PUSH32 0x48656C6C6F20776F726C64000000000000000000000000000000000000000000 DUP2 MSTORE POP SWAP1 POP SWAP1 JUMP JUMPDEST PUSH1 0x0 DUP2 DUP4 ADD SWAP1 POP SWAP3 SWAP2 POP POP JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 0xea DUP5 MULMOD 0xb7 0xe0 0xea 0xb4 0xe3 KECCAK256 CODECOPY PUSH23 0x7ECC83D2DC92F360CE20FB6DA388874F8D0439D5B60029 ",
+    "sourceMapDeployed": "26:581:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;368:150;;8:9:-1;5:2;;;30:1;27;20:12;5:2;368:150:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;368:150:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;524:80;;8:9:-1;5:2;;;30:1;27;20:12;5:2;524:80:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;368:150;414:6;444:37;470:10;444:37;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;491:20;;;;;;;;;;;;;;;;;;;;368:150;:::o;524:80::-;569:4;596:1;592;:5;585:12;;524:80;;;;:::o",
+    "opcodesDeployed": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH2 0x4C JUMPI PUSH1 0x0 CALLDATALOAD PUSH29 0x100000000000000000000000000000000000000000000000000000000 SWAP1 DIV PUSH4 0xFFFFFFFF AND DUP1 PUSH4 0x942AE0A7 EQ PUSH2 0x51 JUMPI DUP1 PUSH4 0xCAD0899B EQ PUSH2 0xE1 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x5D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x66 PUSH2 0x12C JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE DUP4 DUP2 DUP2 MLOAD DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP4 DUP4 PUSH1 0x0 JUMPDEST DUP4 DUP2 LT ISZERO PUSH2 0xA6 JUMPI DUP1 DUP3 ADD MLOAD DUP2 DUP5 ADD MSTORE PUSH1 0x20 DUP2 ADD SWAP1 POP PUSH2 0x8B JUMP JUMPDEST POP POP POP POP SWAP1 POP SWAP1 DUP2 ADD SWAP1 PUSH1 0x1F AND DUP1 ISZERO PUSH2 0xD3 JUMPI DUP1 DUP3 SUB DUP1 MLOAD PUSH1 0x1 DUP4 PUSH1 0x20 SUB PUSH2 0x100 EXP SUB NOT AND DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP JUMPDEST POP SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0xED JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x116 PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x205 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP3 DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x60 PUSH32 0x28843B844D4060D225BC7FB6279BD091F7DDB51B0F3D7E97947F52D3B609A2BE CALLER PUSH1 0x40 MLOAD DUP1 DUP1 PUSH1 0x20 ADD DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0xB DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x48656C6C6F20776F726C64000000000000000000000000000000000000000000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 PUSH1 0x40 DUP1 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 PUSH1 0xB DUP2 MSTORE PUSH1 0x20 ADD PUSH32 0x48656C6C6F20776F726C64000000000000000000000000000000000000000000 DUP2 MSTORE POP SWAP1 POP SWAP1 JUMP JUMPDEST PUSH1 0x0 DUP2 DUP4 ADD SWAP1 POP SWAP3 SWAP2 POP POP JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 0xea DUP5 MULMOD 0xb7 0xe0 0xea 0xb4 0xe3 KECCAK256 CODECOPY PUSH23 0x7ECC83D2DC92F360CE20FB6DA388874F8D0439D5B60029 ",
+    "bytecode": "608060405234801561001057600080fd5b5061023e806100206000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063942ae0a714610051578063cad0899b146100e1575b600080fd5b34801561005d57600080fd5b5061006661012c565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a657808201518184015260208101905061008b565b50505050905090810190601f1680156100d35780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100ed57600080fd5b506101166004803603810190808035906020019092919080359060200190929190505050610205565b6040518082815260200191505060405180910390f35b60607f28843b844d4060d225bc7fb6279bd091f7ddb51b0f3d7e97947f52d3b609a2be3360405180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281038252600b8152602001807f48656c6c6f20776f726c640000000000000000000000000000000000000000008152506020019250505060405180910390a16040805190810160405280600b81526020017f48656c6c6f20776f726c64000000000000000000000000000000000000000000815250905090565b60008183019050929150505600a165627a7a72305820ea8409b7e0eab4e32039767ecc83d2dc92f360ce20fb6da388874f8d0439d5b60029",
+    "bytecodeDeployed": "60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063942ae0a714610051578063cad0899b146100e1575b600080fd5b34801561005d57600080fd5b5061006661012c565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a657808201518184015260208101905061008b565b50505050905090810190601f1680156100d35780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100ed57600080fd5b506101166004803603810190808035906020019092919080359060200190929190505050610205565b6040518082815260200191505060405180910390f35b60607f28843b844d4060d225bc7fb6279bd091f7ddb51b0f3d7e97947f52d3b609a2be3360405180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281038252600b8152602001807f48656c6c6f20776f726c640000000000000000000000000000000000000000008152506020019250505060405180910390a16040805190810160405280600b81526020017f48656c6c6f20776f726c64000000000000000000000000000000000000000000815250905090565b60008183019050929150505600a165627a7a72305820ea8409b7e0eab4e32039767ecc83d2dc92f360ce20fb6da388874f8d0439d5b60029"
   }
 ]</value></data><data name="ContractAbiJson" xml:space="preserve"><value>{
   "ERC20Basic.sol/ERC20Basic": [
@@ -4164,5 +4633,75 @@
       "anonymous": false
     }
   ],
-  "ERC20Basic.sol/SafeMath": []
+  "ERC20Basic.sol/SafeMath": [],
+  "HelloWorld.sol/HelloWorld": [
+    {
+      "type": "function",
+      "name": "renderHelloWorld",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "components": null
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "constant": false,
+      "anonymous": null
+    },
+    {
+      "type": "function",
+      "name": "sum",
+      "inputs": [
+        {
+          "name": "a",
+          "type": "uint256",
+          "components": null,
+          "indexed": null
+        },
+        {
+          "name": "b",
+          "type": "uint256",
+          "components": null,
+          "indexed": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "components": null
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "constant": false,
+      "anonymous": null
+    },
+    {
+      "type": "event",
+      "name": "HelloEvent",
+      "inputs": [
+        {
+          "name": "_message",
+          "type": "string",
+          "components": null,
+          "indexed": false
+        },
+        {
+          "name": "_sender",
+          "type": "address",
+          "components": null,
+          "indexed": false
+        }
+      ],
+      "outputs": null,
+      "payable": null,
+      "stateMutability": null,
+      "constant": null,
+      "anonymous": false
+    }
+  ]
 }</value></data></root>

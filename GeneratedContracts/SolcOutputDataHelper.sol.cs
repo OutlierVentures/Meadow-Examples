@@ -1,6 +1,6 @@
-//510d0a8afa382172945dc0662fef51f3ab3c492425813147630c96bd24826375
+//1574a4a0d0781dfe729eff6ca244303e7507e41a51bded3185d7cde15e61ce81
 // NOTICE: Do not change this file. This file is auto-generated and any changes will be reset.
-// Generated date: 2019-05-20T15:32:56 (UTC)
+// Generated date: 2019-05-20T16:36:16 (UTC)
 #pragma warning disable SA1000 // The keyword 'new' should be followed by a space
 
 #pragma warning disable SA1003 // Symbols should be spaced correctly
@@ -27,7 +27,7 @@
 
 #pragma warning disable IDE1006 // Naming Styles
 
-[assembly: Meadow.Contract.GeneratedSolcDataAttribute("510d0a8afa382172945dc0662fef51f3ab3c492425813147630c96bd24826375")]
+[assembly: Meadow.Contract.GeneratedSolcDataAttribute("1574a4a0d0781dfe729eff6ca244303e7507e41a51bded3185d7cde15e61ce81")]
 namespace TokenContract
 {
 }
