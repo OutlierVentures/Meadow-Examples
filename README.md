@@ -21,8 +21,9 @@ On Windows, install:
 Two demonstration contracts are included:
 
 1. Simple HelloWorld contract from Meadow example project
-1. Basic ERC20 token
+1. [Basic ERC20 token](https://gist.githubusercontent.com/giladHaimov/8e81dbde10c9aeff69a1d683ed6870be/raw/956a73285142650555ed0509e3973fc1601db71a/BasicERC20.sol) (thanks to https://github.com/giladHaimov/)
 
 And some tests for both.
 
 Tests can be run and debugged in VS Code using Solidity debugger as [described in the Meadow docs](https://github.com/MeadowSuite/Meadow/wiki/Using-the-VSCode-Solidity-Debugger). Place breakpoints, click Debug Test, and off you go.
+
